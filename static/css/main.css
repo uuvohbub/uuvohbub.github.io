@@ -40,11 +40,24 @@ li a {
     border: 3px solid rgb(118, 6, 133);
     margin: auto;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
-div h1{
+.blogtitle{
+    width: 80px;
+    border: 3px solid rgb(118, 6, 133);
+    margin: auto;
+    text-align: center;
+}
+
+.box h1{
     font-size: 400%;
+    line-height: 1px;
+    color: white;
+}
+
+.blogtitle h1{
+    font-size: 200%;
     line-height: 1px;
     color: white;
 }
