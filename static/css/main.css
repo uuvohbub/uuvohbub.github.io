@@ -3,74 +3,35 @@ html, body { height: 100%; }
 body{
     font-family: 'Handjet', cursive;
     background-color: rgb(27, 27, 27);
+    overflow: hidden;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-li {
-    display: inline;
-    float : left;
-}
-
-li a {
-    display: block;
-    padding: 4px;
-    background-color: #362a36;
-  }
 
 .mainpage {
+    display: flex;
     background-image: url(https://img3.gelbooru.com/images/77/ba/77ba5843797cf5bc9ea2e019ceb0c5c4.png);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    position: fixed;
+    align-items: center;
+    justify-content: center;
     background-attachment: fixed;
     background-position: right;
 }
 
-.aboutpage {
-    background-image: url(https://img3.gelbooru.com//images/b0/96/b0968dbfcd748a543f756a4554020c75.png);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: fixed;
-    background-attachment: fixed;
-    background-position: right;
-}
-
-.parent{
+.container{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    row-gap: 10px;
 }
 
 .box{
     width: 320px;
     border: 3px solid rgb(118, 6, 133);
-    margin: auto;
     text-align: center;
-    padding-bottom: 15px;
-}
-
-.buttonbox{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 320px;
-    border: 3px solid rgb(118, 6, 133);
-    margin: auto;
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 .blogtitle{
@@ -92,7 +53,7 @@ li a {
     color: white;
 }
 
-h2{
+.box h2{
     line-height: 5px;
     color: white;
 }
@@ -107,7 +68,6 @@ a{
 }
 
 .box a:hover{
-    font-size: 300%;
     transition: 250ms;
     color: rgb(118, 6, 133)
 }
