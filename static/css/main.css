@@ -53,12 +53,12 @@ body{
     text-align: center;
 }
 
-.blogtitle{
-    width: 80px;
-    border: 3px solid rgb(118, 6, 133);
-    margin: auto;
+.buttonbox{
+    display: flex;
+    border: 3px solid rgb(157,52,74);
     text-align: center;
 }
+
 
 .box h1{
     font-size: 450%;
@@ -91,6 +91,20 @@ a{
     font-size: 150%;
     margin: 3px;
     color: white;
+}
+
+.buttonbox a{
+    transition: 250ms;
+    line-height: 20px;
+    text-decoration:none;
+    font-size: 150%;
+    margin: 5px;
+    color: white;
+}
+
+.buttonbox a:hover{
+    transition: 250ms;
+    color: rgb(157,52,74);
 }
 
 .box a:hover{
